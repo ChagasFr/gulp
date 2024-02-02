@@ -15,6 +15,7 @@ function transformacaoJS(cb) {
         .pipe(uglify())
         .on('error', err => console.log(err))
         .pipe(concat('codigo.min.js'))
+        // pasta de destino
         .pipe(gulp.dest('build'))
 }
 
