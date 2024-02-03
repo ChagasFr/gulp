@@ -1,6 +1,6 @@
 {
     "files": [
-        "src/**/*.ts"
+        "src/../tsconfig.json"
     ],
     "compilerOptions": {
         "rootDir": "src",
